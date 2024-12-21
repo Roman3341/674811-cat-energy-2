@@ -1,3 +1,32 @@
 .text {
+  color: $grey-dark-light;
 
+  &--main-slogan {
+    color: $white;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 29px;
+
+    @include tablet {
+      color: $black-full;
+      font-size: 20px;
+      line-height: 20px;
+    }
+  }
+
+  &--small {
+    font-family: $font-secondary;
+    font-size: 14px;
+    line-height: 18px;
+    color: $grey-dark-light;
+  }
+
+  &--middle-link {
+    color: $black-full;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+  }
 }
